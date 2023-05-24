@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&family=Lora:wght@400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&family=Vina+Sans&display=swap');
+
+:root {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+/* kích thước chung thanh trược */
+html::-webkit-scrollbar {
+    width: .8rem;
+}
+
+/* nền thanh trược */
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* thanh trược */
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5rem;
+}
+
+/* common styles starts */
+
+/* common styles ends */
+
+
+/* MEDIA QUERIES */
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 450px) {}
